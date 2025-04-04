@@ -39,8 +39,8 @@ npm install -g truffle
 ### 2. Clone the Repository
 If you haven’t already, download or clone this project:
 ```bash
-git clone 
-cd 
+git clone https://github.com/SyedMohmedFaizRozdar/Decentralised-auction-system-using-smart-contracts.git
+cd Decentralised-auction-system-using-smart-contracts
 ```
 
 ### 3. Install Project Dependencies
