@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Decentralized Auction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin - Decentralized Auction</h1>
+        <nav>
+            <a href="auctions.html">View Auctions</a> | <a href="dashboard.html">Dashboard</a>
+        </nav>
+        <button id="connectWallet">Connect Wallet (Admin - 0th Account)</button>
+        <div id="walletAddress"></div>
+        <div id="adminPanel" style="display: none;">
+            <h2>Create Auction</h2>
+            <input id="itemName" placeholder="Item Name" type="text">
+            <input id="imageUrl" placeholder="Image URL" type="text">
+            <input id="duration" placeholder="Duration (seconds)" type="number">
+            <input id="startingBid" placeholder="Starting Bid (ETH)" type="number" step="0.01">
+            <button id="createAuction">Create Auction</button>
+        </div>
+        <h2>Active Auctions (Admin View)</h2>
+        <div id="auctionList"></div>
+    </div>
+    <script src="./ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

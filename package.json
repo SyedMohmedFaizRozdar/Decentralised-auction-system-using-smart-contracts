@@ -1,0 +1,13 @@
+{
+  "name": "decentralized-auction",
+  "version": "1.0.0",
+  "scripts": {
+      "migrate": "truffle migrate --network development && move build frontend"
+  },
+  "dependencies": {
+      "@openzeppelin/contracts": "^4.9.0",
+      "@truffle/hdwallet-provider": "^2.0.0",
+      "ethers": "^5.7.2",
+      "truffle": "^5.5.0"
+  }
+}

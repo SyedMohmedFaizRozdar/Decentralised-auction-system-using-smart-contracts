@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Decentralized Auction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard - Decentralized Auction</h1>
+        <nav>
+            <a href="admin.html">Admin Panel</a> | <a href="auctions.html">View Auctions</a>
+        </nav>
+        <input id="walletAddressInput" placeholder="Enter your wallet address (Ganache account)" type="text">
+        <button id="connectWallet">Connect Wallet</button>
+        <div id="walletAddress"></div>
+        <h2>Your Won Items</h2>
+        <div id="userDashboard"></div>
+    </div>
+    <script src="./ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
